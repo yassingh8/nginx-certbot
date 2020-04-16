@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=psigaming.tk
+domains=psigaming2.tk
 rsa_key_size=4096
 data_path="./data/certbot"
 email="yashwardhan.singh@publicissapient.com" # Adding a valid address is strongly recommended
