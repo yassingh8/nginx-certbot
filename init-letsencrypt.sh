@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(beta.gamifylearningcentre.com)
+domains=(app.gamifylearningcentre.com)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="yashwardhan.singh@publicissapient.com" # Adding a valid address is strongly recommended
